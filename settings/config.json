@@ -1,0 +1,12 @@
+{
+    "development": {
+        "SECRET_KEY": "devsecretkey",
+        "SQLALCHEMY_DATABASE_URI": "mysql+pymysql://root@localhost:3307/chatbot_db",
+        "SQLALCHEMY_TRACK_MODIFICATIONS": false
+    },
+    "production": {
+        "SECRET_KEY": "prodsecretkey",
+        "SQLALCHEMY_DATABASE_URI": "mysql+pymysql://root@localhost:3307/chatbot_db_prod",
+        "SQLALCHEMY_TRACK_MODIFICATIONS": false
+    }
+}
